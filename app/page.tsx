@@ -29,6 +29,7 @@ import {
   Lightbulb,
   Send,
   ArrowRight,
+  AppWindow
 } from "lucide-react"
 
 export default function Portfolio() {
@@ -95,7 +96,7 @@ export default function Portfolio() {
 
   const topSkills = [
     { name: "Complex Problem Solving", icon: Brain, color: "from-indigo-500 to-purple-600" },
-    { name: "Firebase", icon: Database, color: "from-orange-500 to-red-500" },
+{ name: "Flutter", icon: AppWindow, color: "from-blue-400 to-cyan-400" },
     { name: "Dart", icon: Code, color: "from-blue-500 to-cyan-500" },
   ]
 
